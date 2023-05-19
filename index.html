@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Data Rendering</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>JSON Data Rendering</h1>
+
+  <div id="searchForm">
+    <input type="text" id="nameInput" placeholder="Search by name" />
+    <input type="text" id="designationInput" placeholder="Filter by designation/skills" />
+    <button id="submitButton">Submit</button>
+  </div>
+
+  <table id="projectsTable">
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Team Size</th>
+        <th>Completed Tasks</th>
+      </tr>
+    </thead>
+    <tbody id="projectsTableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
